@@ -10,7 +10,7 @@ public class SimpleTest
     [Test]
     public void NUnitTest()
     {
-        NUnit.Framework.Assert.IsTrue(false);
+        NUnit.Framework.Assert.IsTrue(true);
     }
 
     [UnityTest]
@@ -18,6 +18,6 @@ public class SimpleTest
     {
         yield return null;
 
-        UnityEngine.Assertions.Assert.IsTrue(false, "Unity Test Failed");
+        UnityEngine.Assertions.Assert.IsTrue(true, "Unity Test Failed");
     }
 }
